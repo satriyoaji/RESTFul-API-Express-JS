@@ -9,6 +9,7 @@ After clone this repository, you can run:
 3. Then open [http://localhost:5000](http://localhost:5000) to view it in the browser (it's default port setting).
    URI list for endpoints  (if it runs on localhost):
    - http://127.0.0.1:5000/api/users/ (<bold>GET</bold>)  - get all Users data
+   - http://127.0.0.1:5000/api/users/ (<bold>POST</bold>)  - create one User data
    - http://127.0.0.1:5000/api/users/:id (<bold>GET</bold>) - get one User data according to it's document id
    - http://127.0.0.1:5000/api/users/:id (<bold>PATCH</bold>) - update one User data according to it's document id
    - http://127.0.0.1:5000/api/users/:id (<bold>DELETE</bold>)  - delete one User data according to it's document id
